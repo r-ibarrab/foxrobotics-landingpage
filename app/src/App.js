@@ -7,15 +7,17 @@ import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
+import { Donate } from "./components/Donate";
 
 function App() {
   return (
     <div className="App">
       <NavBar />
       <Banner />
-      <Skills />
+
       <Projects />
       <Contact />
+      <Donate />
       <Footer />
     </div>
   );

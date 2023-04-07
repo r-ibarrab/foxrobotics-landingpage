@@ -230,14 +230,25 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
 
+button a{
+  text-decoration: none;
+  color:white;
+}
+button a:hover{
+  text-decoration: none;
+  color:white;
+}
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/banner-bg.png');
+  
+  background-image: radial-gradient( circle farthest-corner at 83.7% 4.3%,  rgba(225, 213, 47, 0.367) 0%, rgba(15,51,92,1) 90% );
+
+/* 
   background-position: top center;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 .banner .tagline {
   font-weight: 700;
@@ -282,9 +293,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner button:hover svg {
   margin-left: 25px;
 }
-.banner img {
+/* .banner img {
   animation: updown 3s linear infinite;
-}
+} */
 @keyframes updown {
     0% {
         transform: translateY(-20px);
@@ -392,7 +403,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     position: absolute;
     width: 0;
     height: 100%;
-    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    background: linear-gradient(90.21deg, #a8ac3e65 -5.91%, #f0ed19 111.58%);
     top: 0;
     left: 0;
     z-index: -1;
@@ -424,7 +435,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90.21deg, #d4b133 -5.91%, #ebe00c 111.58%);
   opacity: 0.85;
   position: absolute;
   width: 100%;
@@ -471,7 +482,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .contact {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90.21deg, #ebe426 -5.91%, #b08e29 111.58%);
   padding: 60px 0 200px 0;
 }
 .contact img {
@@ -548,6 +559,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  padding-top:25px;
+}
+
+.teamterm:hover{
+  cursor: pointer;
 }
 .newsletter-bx {
   background: #FFFFFF;
